@@ -4,7 +4,6 @@ import ProgressBar from './progressBar';
 const UploadForm = () => {
     const types = ['image/png', 'image/jpeg'];
     const [error, setError] = useState(null);
-
     const [file, setFile] = useState(null);
 
     const changeHandler = (e) => {
@@ -21,7 +20,10 @@ const UploadForm = () => {
 
     return (
         <form>
-            <input type="file" onChange={changeHandler}/>
+            <label>
+                <input type="file" onChange={changeHandler}/>
+                <span>+</span>
+            </label>
             <div className="output">
                 {error && <div className="error">{ error } </div>}
                 {file && <div>{ file.name } </div> }

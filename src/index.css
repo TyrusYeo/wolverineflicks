@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Inter');
 
 :root{
-  --primary: #FFCB05;
-  --secondary: #4e4e4e;
+  --primary: #00274C;
+  --secondary: #FFCB05;
   --error: #ff4a4a;
 }
 
@@ -13,13 +13,20 @@ body{
 }
 .App{
   text-align: center;
+  align-items: center;
 }
 .title h1{
   color: var(--primary);
   font-size: 4rem;
   letter-spacing: 2px;
   font-weight: normal;
+  border-bottom: 3px solid var(--primary);
 }
+
+.title h1 span{
+  color: var(--secondary);
+}
+
 .title h2, .title p{
   text-align: center;
 }
@@ -30,8 +37,29 @@ body{
 
 
 /* upload form styles */
-
-
+label{
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--primary);
+  border-radius: 50%;
+  margin: 10px auto;
+  line-height: 30px;
+  color: var(--primary);
+  font-weight: bold;
+  font-size: 24px;
+}
+label:hover{
+  background: var(--primary);
+  color: white;
+}
+.output{
+  height: 60px;
+  font-size: 0.8rem;
+}
+.error{
+  color: var(--error);
+}
 /* progress bar styles */
 .progress-bar{
   height: 5px;
@@ -58,3 +86,13 @@ body{
   margin-bottom: 15px;
 }
 /* modal styles */
+
+/* handling smaller screens */
+@media only screen and (max-width: 769px) {
+  .title {
+      width: 60%;
+  }
+  .title h1 {
+    font-size: 1.75rem;
+  }
+}
