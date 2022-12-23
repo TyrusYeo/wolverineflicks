@@ -11,7 +11,7 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
-  "homepage": "https://username.github.io/wolverineflicks",
+  "homepage": "https://tyrusyeo.github.io/wolverineflicks",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
