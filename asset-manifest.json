@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/wolverineflicks/static/css/main.dddafa31.chunk.css",
+    "main.js": "/wolverineflicks/static/js/main.1729c9ad.chunk.js",
+    "main.js.map": "/wolverineflicks/static/js/main.1729c9ad.chunk.js.map",
+    "runtime-main.js": "/wolverineflicks/static/js/runtime-main.e009ed69.js",
+    "runtime-main.js.map": "/wolverineflicks/static/js/runtime-main.e009ed69.js.map",
+    "static/js/2.d0ebc572.chunk.js": "/wolverineflicks/static/js/2.d0ebc572.chunk.js",
+    "static/js/2.d0ebc572.chunk.js.map": "/wolverineflicks/static/js/2.d0ebc572.chunk.js.map",
+    "index.html": "/wolverineflicks/index.html",
+    "precache-manifest.e6942870cd2875a15d3ffcf60cf5d1b4.js": "/wolverineflicks/precache-manifest.e6942870cd2875a15d3ffcf60cf5d1b4.js",
+    "service-worker.js": "/wolverineflicks/service-worker.js",
+    "static/css/main.dddafa31.chunk.css.map": "/wolverineflicks/static/css/main.dddafa31.chunk.css.map",
+    "static/js/2.d0ebc572.chunk.js.LICENSE.txt": "/wolverineflicks/static/js/2.d0ebc572.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e009ed69.js",
+    "static/js/2.d0ebc572.chunk.js",
+    "static/css/main.dddafa31.chunk.css",
+    "static/js/main.1729c9ad.chunk.js"
+  ]
+}
