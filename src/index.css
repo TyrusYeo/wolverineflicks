@@ -37,6 +37,12 @@ body{
 
 
 /* upload form styles */
+label input {
+  height: 0; 
+  width: 0;
+  opacity: 0;
+}
+
 label{
   display: block;
   width: 30px;
@@ -49,22 +55,24 @@ label{
   font-weight: bold;
   font-size: 24px;
 }
+
 label:hover{
   background: var(--primary);
   color: white;
 }
 .output{
-  height: 60px;
+  height: 40px;
   font-size: 0.8rem;
 }
 .error{
   color: var(--error);
 }
+
 /* progress bar styles */
 .progress-bar{
   height: 5px;
   background: var(--primary);
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 /* image grid styles */
@@ -75,7 +83,7 @@ label:hover{
   -webkit-column-width: 33%;
   -moz-column-width: 33%;
   column-width: 33%;
-  padding: 0 12px;
+  padding: 0 10px;
 }
 
 .img-wrap img{
@@ -85,7 +93,6 @@ label:hover{
   border-radius: 7px;
   margin-bottom: 15px;
 }
-/* modal styles */
 
 /* handling smaller screens */
 @media only screen and (max-width: 769px) {
@@ -94,5 +101,11 @@ label:hover{
   }
   .title h1 {
     font-size: 1.75rem;
+  }
+  .img-grid{
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    padding: 0 10px;
   }
 }
