@@ -3,7 +3,9 @@
 :root{
   --primary: #00274C;
   --secondary: #FFCB05;
+  --tertiary: #FFFFFF;
   --error: #ff4a4a;
+  background-color: var(--primary);
 }
 
 /* base styles & title */
@@ -14,13 +16,14 @@ body{
 .App{
   text-align: center;
   align-items: center;
+  
 }
 .title h1{
-  color: var(--primary);
-  font-size: 4rem;
+  color: var(--tertiary);
+  font-size: clamp(40px, 7vw, 85px);
   letter-spacing: 2px;
   font-weight: normal;
-  border-bottom: 3px solid var(--primary);
+  border-bottom: 3px solid var(--tertiary);
 }
 
 .title h1 span{
@@ -47,18 +50,18 @@ label{
   display: block;
   width: 30px;
   height: 30px;
-  border: 1px solid var(--primary);
+  border: 1px solid var(--tertiary);
   border-radius: 50%;
   margin: 10px auto;
   line-height: 30px;
-  color: var(--primary);
+  color: var(--tertiary);
   font-weight: bold;
   font-size: 24px;
 }
 
 label:hover{
   background: var(--primary);
-  color: white;
+  color: var(--secondary);
 }
 .output{
   height: 40px;
@@ -96,12 +99,6 @@ label:hover{
 
 /* handling smaller screens */
 @media only screen and (max-width: 769px) {
-  .title {
-      width: 60%;
-  }
-  .title h1 {
-    font-size: 1.75rem;
-  }
   .img-grid{
     -webkit-column-count: 1;
     -moz-column-count: 1;
