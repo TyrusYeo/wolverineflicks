@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "86ce6c389aa7e5f10a748ba09a0f5767",
+    "revision": "f5961ea3fe967afe3637b99ca3c32b1f",
     "url": "/wolverineflicks/index.html"
   },
   {
-    "revision": "64da800083742d941cd8",
-    "url": "/wolverineflicks/static/css/main.e991baf7.chunk.css"
+    "revision": "43c20692aebcee108f96",
+    "url": "/wolverineflicks/static/css/main.37fbd990.chunk.css"
   },
   {
     "revision": "6dcd3dcd318e613757d8",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wolverineflicks/static/js/2.d0ebc572.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "64da800083742d941cd8",
+    "revision": "43c20692aebcee108f96",
     "url": "/wolverineflicks/static/js/main.1729c9ad.chunk.js"
   },
   {
